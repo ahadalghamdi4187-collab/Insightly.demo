@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insightly - الباقات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-blue"></div>
+
+  <header>
+    <h1>باقات Insightly</h1>
+    <p>اختر الباقة الأنسب لك</p>
+  </header>
+
+  <section class="packages">
+    <div class="package">
+      <h3>الباقة الكاملة</h3>
+      <p>تنظيف + تحليل + تمثيل البيانات</p>
+      <button onclick="selectPackage('الباقة الكاملة')">اختيار</button>
+    </div>
+    <div class="package">
+      <h3>تنظيف وتحليل فقط</h3>
+      <p>بيانات مرتبة + تقارير</p>
+      <button onclick="selectPackage('تنظيف وتحليل فقط')">اختيار</button>
+    </div>
+    <div class="package">
+      <h3>تمثيل البيانات فقط</h3>
+      <p>رسوم بيانية ولوحات بصرية</p>
+      <button onclick="selectPackage('تمثيل البيانات فقط')">اختيار</button>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <label for="file">📂 ارفع ملف بياناتك (اختياري للتجربة):</label>
+    <input type="file" id="file">
+    <br>
+    <button onclick="pay()">ادفع</button>
+    <p id="paymentStatus"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

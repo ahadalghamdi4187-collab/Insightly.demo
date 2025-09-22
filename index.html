@@ -1,1 +1,36 @@
-<h1>اهلا، هذا موقعي 🌸</h1>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insightly - الترحيب</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-blue"></div>
+
+  <header>
+    <h1>مرحبًا بكم في Insightly</h1>
+    <p>وجهتكم الأولى للتحليلات الذكية والرسوم البيانية ✨</p>
+  </header>
+
+  <section class="login-section">
+    <button onclick="alert('تسجيل جديد')">تسجيل جديد</button>
+    <button onclick="alert('تسجيل الدخول')">تسجيل الدخول</button>
+    <button onclick="demoLogin()">تسجيل دخول تجريبي</button>
+    <br>
+    <a href="#">نسيت كلمة المرور؟</a>
+  </section>
+
+  <section class="language-contact">
+    <label for="language">اختر اللغة:</label>
+    <select id="language" onchange="toggleLanguage()">
+      <option value="ar">العربية</option>
+      <option value="en">English</option>
+    </select>
+    <p>📞 0533904187 | 📧 ahadalghamdi4187@gmail.com</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
