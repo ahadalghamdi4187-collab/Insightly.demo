@@ -1,6 +1,6 @@
 // الصفحة الأولى – تسجيل الدخول التجريبي
 function demoLogin() {
-  const demoCode = "100200300";
+  const demoCode = "00";
   const userName = prompt("ادخلي اسمك لتسجيل الدخول التجريبي:");
   const code = prompt("ادخلي رمز التجربة:");
   if (code === demoCode) {
